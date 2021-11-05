@@ -1,4 +1,11 @@
 
+ 
+// let a = 10;
+// leb b = 20;
+
+// console.log(document.URL);
+
+
 
 // // let a = 15;
 // // let b = 10;
@@ -68,6 +75,76 @@ console.log(num);
 
 //9. Write a JavaScript program to calculate days left until next Christmas.
 
-const d = new Date();
-d.toDateString();
-console.log(d.toDateString());
+// let d = new Date();
+// const cmas =  new Date(d.getFullYear(), 11, 25);
+// if (d.getMonth()==11 && d.getDate() > 25) {
+//   cmas.setFullYear(cmas.getFullYear() + 1);
+// }
+
+
+// const one_day = 1000*60*60*24;
+// console.log(`${ Math.ceil ((cmas.getTime() - d.getTime()) / (one_day))} days left until Christmas!`)
+//-------------------------------------------------------------
+
+// function multiply (){
+//   let v1 = document.getElementById('value1').value;
+//   let v2 = document.getElementById('value2').value;
+//   let result = v1*v2;
+//   document.getElementById('result1').innerHTML = 'The Result is :' + v1*v2;
+// }
+// function divide (){
+//   let v1 = document.getElementById('value1').value;
+//   let v2 = document.getElementById('value2').value;
+//   let result = v1/v2;
+//   document.getElementById('result1').innerHTML = 'The Result is :' + result;
+// }
+
+////-----------------------------------------------------------------------------------------
+
+
+
+// function cToF (celsius){
+//   let cTemp = celsius;
+//   let cToFahr = cTemp * 9 / 5 + 32;
+//   let message = cTemp+'\xBOC is ' + cToFahr + ' \xBOF.';
+//   console.log(message);
+// }
+
+//------------------------------------05.11
+const Marvel = {
+  yearCereation: 1939,
+  mainCharacter: 'Spider Man',
+  mainTeam: 'Avengers',
+};
+
+const DC = {
+  yearCereation: 2013,
+  mainCharacter: 'Batman',
+  mainTeam: 'Justice League',
+
+};
+// console.log('before', Marvel);
+// const newField = 'owner';
+// Marvel[newField] = 'Disney';
+
+// Marvel.owner = 'Disney';
+// console.log('after', Marvel);
+
+Object.freeze(DC);
+
+DC.yearCereation = 2021;
+
+console.log(Object.isExtensible(DC));
+
+const MarvelKiller = Object.assign({}, Marvel);
+MarvelKiller.better = true;
+console.log(MarvelKiller);
+
+// hasOwnproperty
+
+// if (!DC.hasOwnProperty('owner')) {
+//   DC.[newField] = 'Warner Brothers'
+// };
+
+// console.log(DC);
+
