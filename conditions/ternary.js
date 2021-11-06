@@ -1,25 +1,29 @@
-const MATH_PI = 3.14;
-const radius = 10;
-let result;
+//-------------------HOME WORK----------------------------------------
 
-result = radius !== 0 
-? MATH_PI * (radius * radius)
-: 'Radius can not be equal to zero! '
+const num = Math.ceil(Math.random() * 100)
+console.log(num);
 
-// console.log('result');
+const result = num <= 50 
+? 'Number is less than 50'
+: 'Number is greater than 50' ;
 
-const userName = 'Mark';
+console.log(result);
 
-const discount = userName === 'Tony'
-    ? '30%'
-    : '0%'
+let age = Math.ceil(Math.random() * 100);
+let allowedAge = 21;
+console.log(age);
+const pass = age < allowedAge
+? 'You will not pass!'
+: 'Welcome!Be my guest!'
 
-// console.log('Congrats!  Your discount is ' + discount);
-const res = radius !== 0 && MATH_PI === 3.14
-    ? MATH_PI * (radius * radius)
-    : 'Radius can not be equal to zero and Math PI should be correct ';
+console.log (pass);
 
-const checkRadius = radius == 10 || radius < 100 ? 'ok' : 'Not ok'
-    console.log(checkRadius)
+let k;
+k = 10;
+k = 'Lviv';
 
-    console.log('logical operator', !radius)
+
+const res = k !== 'Lviv'
+? 'isTrue'
+: 'is False'
+console.log(res);
