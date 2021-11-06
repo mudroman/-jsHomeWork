@@ -21,30 +21,34 @@
 // console.log('Result with data types check ', res2);
 //----------------------------------- Home work here---------------------------------------------------------------
 
+
+// This comment is for practice
+/*
+Here we have : Data types, diffrent variables, verifying of data types)
+*/
 const firstName = 'Roman';
 const secondName = 'Mud';
+const Nick_Name = 'mudR'
 let age = 29;
-let myAge = 29;
+let myAge = age;
 let familyQuantity;
 const isMarried = true;
 let not = null;
 const snake_case = undefined;
 familyQuantity = 3;
 
-const correctAge = age === myAge ? console.log('Im getting old ):') : console.log('Is it true?');
-const type_OF = firstName === secondName;
-const type_IF = firstName === secondName ? console.log('true') : console.log('It is : ', 'false');
-let verf = age == familyQuantity ? console.log('true') : console.log('it is false');
-
-console.log(type_OF);
 
 
-console.log(secondName.length);
-console.log(firstName.toUpperCase());
+/*
+Checking my code
+*/
+
+
+console.log(age.constructor);
 console.log(typeof familyQuantity);
 console.log(typeof firstName);
 console.log(typeof secondName);
-console.log(age.toString());
+console.log(typeof age);
 console.log(familyQuantity);
 console.log(typeof isMarried);
 console.log(typeof snake_case);
