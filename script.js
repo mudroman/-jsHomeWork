@@ -111,18 +111,18 @@ console.log(num);
 // }
 
 //------------------------------------05.11
-const Marvel = {
-  yearCereation: 1939,
-  mainCharacter: 'Spider Man',
-  mainTeam: 'Avengers',
-};
+// const Marvel = {
+//   yearCereation: 1939,
+//   mainCharacter: 'Spider Man',
+//   mainTeam: 'Avengers',
+// };
 
-const DC = {
-  yearCereation: 2013,
-  mainCharacter: 'Batman',
-  mainTeam: 'Justice League',
+// const DC = {
+//   yearCereation: 2013,
+//   mainCharacter: 'Batman',
+//   mainTeam: 'Justice League',
 
-};
+// };
 // console.log('before', Marvel);
 // const newField = 'owner';
 // Marvel[newField] = 'Disney';
@@ -130,15 +130,15 @@ const DC = {
 // Marvel.owner = 'Disney';
 // console.log('after', Marvel);
 
-Object.freeze(DC);
+// Object.freeze(DC);
 
-DC.yearCereation = 2021;
+// DC.yearCereation = 2021;
 
-console.log(Object.isExtensible(DC));
+// console.log(Object.isExtensible(DC));
 
-const MarvelKiller = Object.assign({}, Marvel);
-MarvelKiller.better = true;
-console.log(MarvelKiller);
+// const MarvelKiller = Object.assign({}, Marvel);
+// MarvelKiller.better = true;
+// console.log(MarvelKiller);
 
 // hasOwnproperty
 
@@ -147,4 +147,63 @@ console.log(MarvelKiller);
 // };
 
 // console.log(DC);
+
+// function specnumb (n)  {
+
+//   if (n > 19) {
+//     return (n - 19) * 3;
+
+//   } else {
+//     return 19 - n;
+//   }
+// }
+
+// console.log(specnumb (18));
+
+
+// const givenNumber = (a, b) => {
+
+// if (a === 50 && b === 50 || a+b === 50){
+//   return 'true'
+// } else {
+//   return 'false'
+// }
+
+// }
+
+// console.log(givenNumber(20,20))
+
+//19. Write a JavaScript program to check whether a given integer is within 20 of 100 or 400.
+
+
+// const givenInt = (n) => {
+
+//   return (n >= 20 && n <= 100 || n <=400)
+// };
+
+
+// console.log(givenInt(25));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
