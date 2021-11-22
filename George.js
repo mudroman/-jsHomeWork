@@ -29,9 +29,7 @@
 // Accsses Objedt
 //==============================================
 
-
-
-// let student = { 
+// let student = {
 // name : "David Rayy",
 // sclass : "VI",
 // rollno : 12
@@ -39,7 +37,7 @@
 
 // console.log(Object.keys(student));
 
-// let student = { 
+// let student = {
 // name : "David Rayy",
 // sclass : "VI",
 // rollno : 12
@@ -51,8 +49,6 @@
 // const arr = [6,4,0, 3,-2,1];
 
 // console.log(arr.sort());
-
-
 
 // Task 4 - should return a value by key in provided object
 // provided object - { name: 'Name' }
@@ -66,21 +62,11 @@
 
 // console.log(valueByKeyInObject('name', object));
 
-const object = { name: 'Roman' };
+// const object = { name: 'Roman' };
 
-function valueByKeyInObject(key, obj = {}) {
+// function valueByKeyInObject(key, obj = {}) {
 
-   return obj[key]
- };
+//    return obj[key]
+//  };
 
- console.log(valueByKeyInObject('name', object));
-
-
-
-
-
-
-
-
-
-
+//  console.log(valueByKeyInObject('name', object));
